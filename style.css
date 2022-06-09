@@ -9,3 +9,8 @@ img {
 .item__banner {
     height: auto;
 }
+
+.item__banner-link {
+    display: block;
+    text-decoration: none;
+}

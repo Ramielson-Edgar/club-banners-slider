@@ -14,30 +14,36 @@
 
 <body>
 
-    <div class="owl-carousel owl-theme owl-lazy owl-drag">
+    <div class="banners-carousel owl-carousel owl-theme owl-lazy owl-drag">
         <div class="item item__banner">
-            <picture>
-                <source media="(max-width:450px)" srcset="./banner-images/copy-trading-450x90.jpg">
-                <source media="(max-width:375px)" srcset="./banner-images/copy-trading-375x160.jpg">
-                <img class="img-fluid" loading="lazy" src="./banner-images/copy-trading-1595х160.jpg"
-                    alt="many card users with currency profit" width="1595" height="160">
-            </picture>
+            <a class="item__banner-link" href="https://adrofx.club/social-platform">
+                <picture>
+                    <source media="(max-width:450px)" srcset="./banner-images/copy-trading-450x90.jpg">
+                    <source media="(max-width:375px)" srcset="./banner-images/copy-trading-375x160.jpg">
+                    <img class="img-fluid" loading="lazy" src="./banner-images/copy-trading-1595х160.jpg"
+                        alt="many card users with currency profit" width="1595" height="160">
+                </picture>
+            </a>
         </div>
         <div class="item item__banner">
-            <picture>
-                <source media="(max-width:450px)" srcset="./banner-images/smart-signals-450x90.jpg">
-                <source media="(max-width:375px)" srcset="./banner-images/smart-signals-375x160.jpg">
-                <img class="img-fluid" loading="lazy" src="./banner-images/smart-signals-1595х160.jpg"
-                    alt="many card users with currency profit" width="1595" height="160">
-            </picture>
+            <a class="item__banner-link" href="https://adrofx.club/analysis">
+                <picture>
+                    <source media="(max-width:450px)" srcset="./banner-images/smart-signals-450x90.jpg">
+                    <source media="(max-width:375px)" srcset="./banner-images/smart-signals-375x160.jpg">
+                    <img class="img-fluid" loading="lazy" src="./banner-images/smart-signals-1595х160.jpg"
+                        alt="phone laptop with trading signals" width="1595" height="160">
+                </picture>
+            </a>
         </div>
         <div class="item item__banner">
-            <picture>
-                <source media="(max-width:450px)" srcset="./banner-images/web-platform-450x90.jpg">
-                <source media="(max-width:375px)" srcset="./banner-images/web-platform-375x160.jpg">
-                <img class="img-fluid" loading="lazy" src="./banner-images/web-platform-1595х160.jpg"
-                    alt="many card users with currency profit" width="1595" height="160">
-            </picture>
+            <a class="item__banner-link" href="https://adrofx.club/Web-platform">
+                <picture>
+                    <source media="(max-width:450px)" srcset="./banner-images/web-platform-450x90.jpg">
+                    <source media="(max-width:375px)" srcset="./banner-images/web-platform-375x160.jpg">
+                    <img class="img-fluid" loading="lazy" src="./banner-images/web-platform-1595х160.jpg"
+                        alt="many card users with currency profit" width="1595" height="160">
+                </picture>
+            </a>
         </div>
     </div>
 
@@ -48,14 +54,14 @@
 
     <script>
         $(document).ready(function () {
-            $('.owl-carousel').owlCarousel({
+            $('.banners-carousel').owlCarousel({
                 items: 1,
                 margin: 10,
                 smartSpeed: 700,
                 loop: true,
                 dots: false,
                 autoplay: true,
-                autoplayTimeout: 3000,
+                autoplayTimeout: 4000,
                 autoplayHoverPause: true,
                 responsive: {
                     0: {
